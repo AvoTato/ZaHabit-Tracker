@@ -1,6 +1,7 @@
 # ZaHabit-Tracker
 
 **Project Description**
+
 The Habit Tracker is a motivational personal development tool that utilises a visual and statistical interface to assist users in establishing and maintaining everyday habits. It is designed as a lightweight, client-side program that allows users to track progress across numerous habits using a single calendar grid, all while keeping data permanent and confidential within their browser. It is constructed using localStorage, HTML, CSS, and JS.
 
 **1. Project Choice**
@@ -24,8 +25,19 @@ My strategy utilized a Chain-of-Thought (CoT) prompting strategy:
 
    I engineered the following final prompt to consolidate the working solutions:
 
-"Act as a Senior Frontend Developer. Build a multi-habit tracker using separate HTML, CSS, and JS files. Create a primary calendar interface where users can mark dates as complete. The app must calculate 'Longest Streak' and 'Completion Rate' and save all data to localStorage. Include a 'Daily Motivation' card that displays a quote."
+"Act as a Senior Frontend Developer. Build a multi-habit tracker using HTML, CSS, and JS. Create a primary calendar interface where users can mark dates as complete. The app must calculate 'Longest Streak' and 'Completion Rate' and save all data to localStorage. Include a 'Daily Motivation' card that displays a quote."
 
-5. Intructions
+**5. Intructions**
+
    To run this project and reproduce the results:
+
+   1. Clone the repository to your local machine.
+   2. Ensure 'index.html', 'styles.css' and 'scripit.js' are in the same directory.
+   3. Launch 'index.html' in any web browser. ( I used microsoft edge)
+   4. **Add a Habit:** Use the input field and click "Add Habit".
+   5. Tracking Habit by Date:
+      - State Change: The date cell undergoes a state change from "incomplete" to "complete" upon a click event.
+      - Visual Feedback: The green colour indicates a successful habit completion for the specific date.
+   6. Month Navigation: Use the arrow buttons next to the month name to view past or future months.
+   7. Delete Habit Option: Click the 'X' on any habit tag to remove it from the system.
    
