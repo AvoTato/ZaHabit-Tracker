@@ -1,6 +1,6 @@
 # ZaHabit-Tracker
 
-📎[ Live Demo Link:] ( https://avotato.github.io/ZaHabit-Tracker/ )
+📎[Deployment URL:] ( https://avotato.github.io/ZaHabit-Tracker/ )
 
 **Project Description**
 
