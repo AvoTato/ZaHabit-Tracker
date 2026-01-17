@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi Habit Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>ZaHabit Tracker</h1>
+
+  <!-- Add Habit -->
+  <div class="habit-input">
+    <input type="text" id="habitName" placeholder="Enter new habit..." />
+    <button id="addHabitBtn">Add Habit</button>
+  </div>
+
+  <!-- Habit List -->
+  <div class="habit-list" id="habitList"></div>
+
+  <!-- Active Habit -->
+  <h2 id="habitTitle">Select a habit</h2>
+
+  <!-- Calendar Header -->
+  <div class="calendar-header">
+    <div class="calendar-controls">
+  <button id="prevMonthBtn">◀</button>
+  <h3 id="monthYear"></h3>
+  <button id="nextMonthBtn">▶</button>
+</div>
+
+    <p>🔥 Streak: <span id="streakCount">0</span> days</p>
+  </div>
+
+  <!-- Weekdays -->
+  <div class="weekdays">
+    <div>Sun</div>
+    <div>Mon</div>
+    <div>Tue</div>
+    <div>Wed</div>
+    <div>Thu</div>
+    <div>Fri</div>
+    <div>Sat</div>
+  </div>
+
+<div id="calendar" class="calendar"></div>
+
+  <!-- Statistics -->
+  <div class="stats">
+    <p>🏆 Longest Streak: <span id="longestStreak">0</span></p>
+    <p>✅ Total Completed: <span id="totalCompleted">0</span></p>
+    <p>📊 Completion Rate: <span id="completionRate">0%</span></p>
+    <p>📅 Monthly Consistency: <span id="monthlyConsistency">0%</span></p>
+  </div>
+</div>
+
+</div>
+
+    <div class="quote-box">
+      <h3>🌟 Daily Motivation</h3>
+      <p id="dailyQuote">Loading motivation...</p>
+      <button id="newQuoteBtn">New Quote</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
