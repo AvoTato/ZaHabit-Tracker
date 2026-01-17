@@ -1,5 +1,7 @@
 # ZaHabit-Tracker
 
+📎[ Live Demo Link:] ( https://avotato.github.io/ZaHabit-Tracker/ )
+
 **Project Description**
 
 The Habit Tracker is a motivational personal development tool that utilises a visual and statistical interface to assist users in establishing and maintaining everyday habits. It is designed as a lightweight, client-side program that allows users to track progress across numerous habits using a single calendar grid, all while keeping data permanent and confidential within their browser. It is constructed using localStorage, HTML, CSS, and JS.
