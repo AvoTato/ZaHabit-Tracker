@@ -6,20 +6,21 @@ The Habit Tracker is a motivational personal development tool that utilises a vi
 
 **1. Project Choice**
    
-   I chose Topic 3: The Habit Tracker with Calendar View. This project focus on building a motivational tool that provides a clear, visual representation of progress through a calendar interface and statistics.
+   I chose Topic 3: The Habit Tracker with Calendar View. This project focuses on building a motivational tool that provides a clear, visual representation of progress through a calendar interface and statistics.
 
 **2. Justification of Tools**
-   - **LLM (GPT-4/ Claude 3.5):** I chose these models for their advanced reasoning in structuring complex JavaScript state logic and their ability to generate a clean, sematic HTML5 and CSS3.
+   - **LLM (GPT-4/ Claude 3.5):** I chose these models for their advanced reasoning in structuring complex JavaScript state logic and their ability to generate a clean, semantic HTML5 and CSS3.
    - **HTML5, CSS and JavaScript:** I used these core web technologies to ensure the application remains 'lighweight' and 'operates entirely in the browser' without the need for external frameworks or cloud-based services.
-   - **LocalStorage API:** This was chosen to satisfy the requirement that all data should be 'saved in the browser', providing a consistant tool for organizing habits without a backend.
+   - **LocalStorage API:** This was chosen to satisfy the requirement that all data should be 'saved in the browser', providing a consistent tool for organizing habits without a backend.
 
 **3. High Level Approach**
 
-My strategy utilized a Chain-of-Thought (CoT) prompting strategy:
-   1. Foundational UI: I began with a single prompt to establish the HTML structure and a responsive CSS grid for the calendar.
-   2. Logic Layering: I then prompted for the JavaScript logic to handle date toggling and data persistence via 'localStorage'.
-   3. Statistical Intergration: I used a specific chain of prompt to ensure the system accurately calculates streaks and consistency percentage based on the data.
-   4. Refinement: I iterated on the prompt to expand the app from a single-habit tracker to a multi-habit tracker system with a dynamic selection menu.
+My strategy utilized a Chain-of-Thought (CoT) prompting strategy rather than a single 'one-shot' prompt to ensure code stability.
+
+   1. Foundational UI: I began with a single prompt to establish the HTML structure and a responsive CSS grid for the calendar. This ensured the layout could handle different month lengths.
+   2. Logic Layering: I prompted for the JavaScript logic to handle date toggling and to structure data as a nested object in 'localStorage'. It ensure completion dates are tied to unique Habit IDs, preventing data overlap between different habits.
+   3. Statistical Intergration: I used a specific chain of prompt to build a calculation engine. This engine parses the stored data to accurately calculate streaks and consistency percentage based on the data.
+   5. Refinement: I iterated on the prompt to expand the app from a single-habit tracker to a multi-habit tracker system. This allowed me to refine the UI without breaking the existing logic.
 
 **4. Final Prompts**
 
